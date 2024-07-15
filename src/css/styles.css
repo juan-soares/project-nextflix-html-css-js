@@ -83,7 +83,7 @@ aside .botoes {
 
 .botoes .botao{
   border: none;
-  background: none;
+  background: #000000;
   cursor: pointer;
   border-radius: 50%;
 
