@@ -56,9 +56,10 @@ main .technology .image {
 }
 
 .content .logo {
-  background-image: url("../imagens/one-piece-logo.png");
+  background-image: url("../../public/assets/images/web-logo.png");
   background-size: cover;
-  height: 100px;
+  background-repeat: no-repeat;
+  height: 150px;
   width: 230px;
   margin-bottom: 35px;
 }
@@ -81,11 +82,13 @@ main .technology .image {
   border: none;
   background: #000000;
   cursor: pointer;
+  width: 100px;
   border-radius: 50%;
 }
 
 .buttons .button img {
   border-radius: 50%;
+  width: 100%;
 }
 
 .buttons .button.selected {
