@@ -4,11 +4,11 @@
     width: 100vw;
   }
 
-  main .technology .image {
+  .technology__wallpaper {
     height: 85%;
   }
 
-  .content {
+  .technology__content {
     justify-content: flex-end;
     left: 0;
     top: -20%;
@@ -16,50 +16,54 @@
     padding: 30px;
   }
 
-  .content .technology-title {
+  .technology__title {
     font-size: 36px;
   }
 
-  .content .description {
+  .technology__description {
     max-width: 500px;
   }
 
-  .buttons {
+  .button__list {
     flex-direction: row;
     align-items: flex-end;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
   }
 
-  .buttons .button img {
-    max-width: 60px;
+  .button {
+    width: 50px;
+  }
+
+  .button img {
+    max-width: 70px;
   }
 }
 
 @media (max-width: 425px) {
-  main .technology .image {
+  .technology__wallpaper {
     height: auto;
   }
 
-  .content .logo {
+  .technology__content {
+    top: -30%;
+  }
+
+  .technology__logo {
     width: 170px;
     height: 75px;
   }
 
-  .content {
-    top: -30%;
-  }
-
-  .content .technology-title {
+  .technology__title {
     font-size: 24px;
   }
 
-  .buttons {
+  .button__list {
     padding: 20px;
     top: -20%;
   }
 
-  .buttons .button img {
+  .button img {
     max-width: 50px;
   }
 }
