@@ -1,21 +1,21 @@
 const buttons = document.querySelectorAll(".button");
-const technologies = document.querySelectorAll(".technology");
+const cards = document.querySelectorAll(".technology__card");
 
 function desselecionarbutton() {
-  const buttonselected = document.querySelector(".button.selected");
-  buttonselected?.classList.remove("selected");
+  const selectedButton = document.querySelector(".button--selected");
+  selectedButton?.classList.remove("button--selected");
 }
 
 function desselecionartechnology() {
-  const technologieselected = document.querySelector(".technology.selected");
-  technologieselected?.classList.remove("selected");
+  const selectedCard = document.querySelector(".technology__card--selected");
+  selectedCard?.classList.remove("technology__card--selected");
 }
 
 buttons.forEach((button, index) => {
   button.addEventListener("click", () => {
     desselecionarbutton();
     desselecionartechnology();
-    button.classList.add("selected");
-    technologies[index].classList.add("selected");
+    button.classList.add("button--selected");
+    cards[index].classList.add("technology__card--selected");
   });
 });

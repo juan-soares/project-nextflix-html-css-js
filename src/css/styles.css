@@ -14,22 +14,22 @@ main::after {
   background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
 }
 
-main .technology {
+.technology__card {
   display: none;
   height: 100vh;
 }
 
-main .technology.selected {
+.technology__card--selected {
   display: block;
 }
 
-main .technology .image {
+.technology__wallpaper {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.content {
+.technology__content {
   position: absolute;
   top: 0;
   left: 120px;
@@ -41,7 +41,7 @@ main .technology .image {
   z-index: 1;
 }
 
-.content .technology-title {
+.technology__title {
   color: #ffffff;
   font-size: 48px;
   font-family: "Secular One";
@@ -49,13 +49,13 @@ main .technology .image {
   margin-bottom: 20px;
 }
 
-.content .description {
+.technology__description {
   color: #ffffff;
   font-family: "Rubik";
   line-height: 24px;
 }
 
-.content .logo {
+.technology__logo {
   background-image: url("../../public/assets/images/web-logo.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ main .technology .image {
   margin-bottom: 35px;
 }
 
-.buttons {
+.button__list {
   position: fixed;
   top: 0;
   right: 0;
@@ -78,7 +78,7 @@ main .technology .image {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.buttons .button {
+.button {
   border: none;
   background: #000000;
   cursor: pointer;
@@ -86,12 +86,12 @@ main .technology .image {
   border-radius: 50%;
 }
 
-.buttons .button img {
-  border-radius: 50%;
-  width: 100%;
-}
-
-.buttons .button.selected {
+.button--selected {
   transform: scale(1.1);
   box-shadow: 0 0 10px #d9d9d9;
+}
+
+.button img {
+  border-radius: 50%;
+  width: 100%;
 }
