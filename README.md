@@ -1,4 +1,4 @@
-# 📌 WEBPAGE: TECNOLOGIAS EM ESTUDO (HTML, CSS, JS)
+# 📌 WEBPAGE: ROADMAP DE TECNOLOGIAS (HTML, CSS, JS)
 
 ![Badge_Status](https://img.shields.io/badge/STATUS-FINISHED-green)
 ![Badge_Versao](https://img.shields.io/badge/VERSION-1.0-black)
